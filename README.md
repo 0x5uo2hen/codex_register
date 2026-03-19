@@ -14,6 +14,15 @@
 * 🚀 **深度 Token 提取 (OAuth2 PKCE)**：自动生成状态码和挑战码 (Code Challenge)，模拟真实用户环境选择默认工作区 (Workspace)，并通过拦截底层的跳转重定向，强行提取出包括 `access_token` 和 `refresh_token` 在内的完整授权配置。
 * 📁 **结构化资产管理**：注册成功后，自动在本地创建 `tokens` 文件夹，将完整的 Token 信息保存为 JSON 文件，并将明文账密按 `账号----密码` 格式追加保存。
 
+## 📷 截图
+<details>
+<summary>📸 点击查看截图</summary>
+<br>
+   
+![Screenshot](Screenshot_2026-03-18-01-16-05-39_84d3000e3f4017145260f7618db1d683.jpg)
+
+</details>
+
 ## 🛠️ 环境准备与安装
 
 1. **环境要求**：需要 Python 3.8 或更高版本。
